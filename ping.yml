@@ -1,8 +1,7 @@
-- name: playbook
+- name: ping test playbook
   hosts: all
   gather_facts: yes
 
   tasks: 
-    - name: print ip address
-      debug: 
-        var: ansible_host
+    - name: ping the servers
+      ping:
