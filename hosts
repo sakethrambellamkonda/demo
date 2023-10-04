@@ -1,2 +1,0 @@
-192.168.56.101 ansible_ssh_user=saketh ansible_ssh_password=saketh
-192.168.56.102 ansible_ssh_user=target ansible_ssh_password=target
